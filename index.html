@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Location Finder | Pickup & Dropoff Suggestions</title>
+    <meta name="description" content="Easily find pickup and dropoff locations with our smart location suggestion tool. Perfect for taxi, rideshare, and delivery services in Charlottetown, Halifax, and beyond.">
+    <meta name="keywords" content="location finder, pickup location, dropoff location, taxi dispatch, rideshare, delivery route planner, Charlottetown taxi, Halifax taxi, address suggestions">
+    <meta name="author" content="Your Name or Business Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourwebsite.com/">
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Location Finder | Pickup & Dropoff Suggestions">
+    <meta property="og:description" content="Find pickup and dropoff addresses quickly for taxi, rideshare, and delivery services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:image" content="https://yourwebsite.com/preview.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Location Finder | Pickup & Dropoff Suggestions">
+    <meta name="twitter:description" content="Easily find pickup and dropoff addresses with smart location suggestions.">
+    <meta name="twitter:image" content="https://yourwebsite.com/preview.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Location Suggestion</h1>
+            <p>Find pickup and dropoff locations with ease</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Enter Locations</h2>
+                <div class="form-group">
+                    <label for="from">Pickup Location</label>
+                    <div class="autocomplete-wrapper">
+                        <input type="text" id="from" placeholder="e.g. 123 University Ave, Charlottetown" />
+                        <div id="suggestions"></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="to">Dropoff Location</label>
+                    <div class="autocomplete-wrapper">
+                        <input type="text" id="to" placeholder="e.g. 456 Mount Edward Rd, Sherword" />
+                        <div id="suggestionsto"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="suggestions.js"></script>
+</body>
+</html>
