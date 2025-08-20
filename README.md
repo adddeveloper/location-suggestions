@@ -34,4 +34,4 @@ Preview:
 
 1. **Download** or **clone** the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/photon-location-suggestions.git
+   git clone https://github.com/adddeveloper/location-suggestions.git
