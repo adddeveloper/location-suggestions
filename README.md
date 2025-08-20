@@ -13,7 +13,7 @@ A lightweight JavaScript address autocomplete widget that uses the [Photon API](
 |   ___) | |_| | (_| | (_| |  __/\__ \ |_| | (_) | | | \__ \  |
 |  |____/ \__,_|\__, |\__, |\___||___/\__|_|\___/|_| |_|___/  |
 |               |___/ |___/                                   |
-|                         This work is the art of adnanscode  |
+|                                             adnans.website  |
 +-------------------------------------------------------------+
 ```
 Preview:
